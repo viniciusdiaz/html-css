@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited{
+            color: rgb(139, 32, 0);
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after{
+            content: ' >>';
+        }
+
+        .bk{
+            background-color: rgb(240, 145, 145);
+            color: white;
+            font-size: 25px;
+        }
+
+        .especial:hover{
+            color: white;
+            background-color: rgb(0, 204, 255);
+            text-decoration: none;
+        }
+
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;
+        }
+
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Link</h1>
+    <p>
+        Musiquinha do youtube <a href="https://youtu.be/UR7APKgOprI" target="_blank" rel="external">Vida Chique</a>
+    </p>
+    <p>
+        Aqui tem as provinhas <a class="bk" href="https://gustavoguanabara.github.io" target="_blank" rel="external">Clique para estudar</a>
+    </p>
+    <p>
+        Pare de mexer nessa merda <a class="especial" href="https://instagram.com" target="_blank" rel="external">instagram</a>
+    </p>
+</body>
+</html>

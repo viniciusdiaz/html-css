@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/luffy-corno-favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>IMAGEM Dinâmica</h1>
+    <p>Tente abrir esse site em vários disposítivos diferentes ou simplesmente aumente e diminua o tamanho da imagem em seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/essa-p-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/essa-m-700.png" type="image/png">
+        <img src="imagens/essa-g-1000.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>REPRODUZINDO ÁUDIO</h1>
+    <p>Vamos aprender a reproduzir aúdio em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/aronsmith-dancin.mp3" type="audio/mp3">
+        
+        <source src="midia/aronsmith-dancin.ogg" type="audio/ogg">
+
+        <source src="midia/aronsmith-dancin.wav" type="audio/wav"> <!-- NÃO USAR O WAV PQ É MUITO PESADO -->
+
+
+        <p>Se você não conseguiu reproduzir o aúdio. <a href="midia/aronsmith-dancin.mp3">Click aqui para baixar o aúdio em MP3!</a></p>
+    </audio>
+
+    <h2 style="color: rgb(236, 164, 7);">Ir para a próxima Página02</h2>
+    <h3 style="color: rgb(241, 66, 66);">Está é o teste das Imagens:</h3>
+    <p><a href="002.html"><img src="imagens/botao-para-direita.png" width="80" alt="Next Page"></a></p>
+
+    <h2 style="color: rgb(236, 164, 7);">Ir para a próxima Página03</h2>
+    <h3 style="color: rgb(241, 66, 66);">Está é o teste dos Vídeos:</h3>
+    <p><a href="test/teest.html"><img src="imagens/botao-para-direita.png" alt="Next Page" width="80"></a></p>
+</body>
+</html>

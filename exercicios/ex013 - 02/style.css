@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    background-attachment: fixed; 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-image: linear-gradient(to right, #92FFFE, #9ab6b5);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 6px;
+    box-shadow: 3px 5px 15px rgba(133, 2, 2, 0.575);
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #0cb0fcc5;
+    text-align: center;
+    text-shadow: 1px 2px 3px #066e9e8c;
+}
+h2{
+    color: rgba(45, 216, 82, 0.856);
+}
+h3{
+    color: #239429ec;
+}
+p{
+    color: #000000;
+}
+
+.lorem-edite{
+    color: rgba(0, 17, 255, 0.712);
+    text-align: justify;
+    font-size: 16px;
+    padding: 3px;
+    text-transform: none;
+    background-color: #92FFFE;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #00000075;
+}

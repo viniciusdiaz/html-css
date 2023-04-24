@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'alpha';
+    src: url('../fonts/AlphaRope.ttf');
+}
+
+@font-face {
+    font-family: 'evil';
+    src: url('../fonts/Evil\ Empire.otf');
+}
+
+:root{
+    --color0: #6fdd6f;
+    --color1: #E83A1F; 
+    --color2: #1C93FF; 
+    --color3: #FF17C6; 
+    --color4: #FF9225;
+
+    --font-padrao: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --font-01: 'evil', Helvetica, Verdana, Arial, serif;
+    --font-02: 'Imbue', Helvetica, Verdana, Arial, sans-serif;
+    --font-03: 'alpha', Helvetica, Verdana, Arial, serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+
+body{
+    background-image:linear-gradient(to top, #6fdd6f4b 70%, rgba(0, 0, 0, 0.795) );
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+header {
+    background-color: var(--color2);
+    padding: 10px;
+}
+
+header h1 {
+    background-image: url('../imagens/zoro-700.png');
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: 1250px;
+    border-radius: 32px;
+    font: normal 4em var(--font-01);
+    text-align: center;
+    padding: 80px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+
+header p {
+    font: 30px var(--font-02);
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 16px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.274);
+}
+
+nav{
+    font: 32px var(--font-02);
+    margin-top: 29px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 6px;
+    margin: 12px;
+    text-shadow: 1px 2px 2px #0000003b;
+}
+
+nav > a:hover {
+    background-color: #6fdd6f;
+    color: #000000;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 0px 0px 12px 12px;
+}
+
+main h2{
+    font: bolder 44px var(--font-03);
+    padding: 12px 0px 0px 12px;
+    margin: 12px;
+    background-image:linear-gradient(to right, #6fdd6f, transparent);
+    border-radius: 8px;
+}
+
+main p{
+    font: normal 20px var(--font-padrao);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+main img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin: 16px 0px;
+    background-color:#000000;
+    padding: 0px;
+    border-radius: 12px;
+}
+
+main video{
+    max-width: 1000px;
+    min-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+aside{
+    background-color: var(--color1);
+    height: auto;
+    margin-top: 20px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 2px 2px 16px #0000007c;
+}
+
+aside h3{
+    font: 28px var(--font-02);
+    padding: 12px;
+    color: white;
+    background-color: var(--color2);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.356);
+    border-radius: 12px 12px 0px 0px;
+}
+
+aside > img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+}
+
+aside p{
+    padding: 0px 18px 20px 18px;
+    color: white;
+}
+
+main nav > div {
+    font:normal 26px var(--font-01);
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+main nav > div > a {
+    padding: 20px;
+    text-decoration: none;
+    color: #6fdd6f;
+    text-shadow: 1px 2px 2px #0000003b;
+}
+
+main nav > div > a:hover {
+    background-color: #6fdd6f;
+    color: #000000;
+    border-radius: 8px;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+footer{
+    background-color: white;
+    color: #000000;
+    padding: 12px;
+    text-align: center;
+}

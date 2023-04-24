@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover TEst Imagens</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover{
+            color: aqua;
+        }
+
+        div>ul>li{
+            display: none;
+        }
+
+        div:hover>ul>li{
+            display: inline-block;
+            background-color: coral;
+        }
+
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a::after{
+            content: '>>';
+        }
+
+        .especial:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;
+        }
+
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+        }
+
+        img{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover Teste de Imagens</h1>
+    <div>
+        TESTANDO IMAGENS NO HOVER
+        <ul type="none">
+            
+            <li><a class="especial" href="https://youtu.be/UR7APKgOprI" target="_blank" rel="external"><img src="imagens/foto-de-programador.jpg" alt=""></a></li>
+            <li><img src="imagens/luffy 650.jpg" alt=""></li>
+            <li><img src="imagens/miniluffy500.png" alt=""></li>
+        </ul>
+    </div>
+</body>
+</html>

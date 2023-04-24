@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+   background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'road';
+    src: url('fonts/Road_Rage.otf');
+}
+
+@font-face {
+    font-family: 'space';
+    src: url('fonts/spacetime-regular.ttf');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    background-color: rgba(229, 231, 233, 0.774);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1#principal{
+    font-family: 'road';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1#principal{
+    background-color: bisque;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+
+.titulos{
+
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.basico-titulo-secundario-css{
+    font-family: 'road', Arial, Verdana, Tahoma, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: green;
+}
+.intermediario-titulo-secundario-css{
+    font-family: 'road', Arial, Verdana, Tahoma, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: orange;
+}
+.avansado-titulo-secundario-css{
+    font-family: 'road', Arial, Verdana, Tahoma, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: red;
+}
+.titulo-secundario-css{
+    font-family: 'road', Arial, Verdana, Tahoma, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: red;
+}
+
+.cor-1{
+    color: rgb(0, 128, 0);
+}
+
+.cor-2{
+    color: rgb(34, 231, 123);
+}
+
+.cor-3{
+    color: rgb(255, 0, 0);
+}
+
+p{
+    font-family: 'Segoe UI', Arial, Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.inicio-de-conteudo-p1{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 29px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.inicio-de-conteudo-p1{
+    background: fixed;
+    background-color: rgb(245, 195, 134);
+    padding: 1em;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(233, 94, 13);
+    border-width: 4px;
+}
+
+.inicio-do-conteudo-p2{
+    font-family: 'space', Verdana, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 29px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.inicio-do-conteudo-p2{
+    background: fixed;
+    background-color: bisque;
+    padding: 1em;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(13, 130, 233);
+    border-width: 4px;
+}
